@@ -1,0 +1,14 @@
+.card-img-top {
+    max-width: 80px; /* Largeur maximale des logos */
+    max-height: 80px; /* Hauteur maximale des logos */
+    margin: 0 auto; /* Centre les images horizontalement */
+    display: block; /* Assure un centrage correct */
+    object-fit: contain; /* Garde les proportions sans déformation */
+    
+}
+  body{
+    background-color: #58C9B9;
+}
+
+
+  

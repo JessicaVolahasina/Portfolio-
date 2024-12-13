@@ -1,0 +1,42 @@
+/* Style général pour la section de contact */
+#contact {
+    padding: 2rem 0;
+  
+  }
+  
+  /* Style de la carte contenant l'image */
+  #contact .card {
+    border: none;
+    margin-bottom: 2rem;
+  }
+  
+  /* Ajustement de l'image dans la carte */
+  #contact .card-img {
+    object-fit: cover; /* L'image couvre l'espace sans déformation */
+    height: 400px; /* Hauteur fixe pour l'image */
+    width: 100%; /* L'image prend toute la largeur */
+  }
+  
+  /* Style pour le formulaire de contact */
+  #contactForm input,
+  #contactForm textarea {
+    border: 1px solid #ced4da; /* Bordure standard */
+    border-radius: 0.25rem; /* Coins arrondis */
+    padding: 0.75rem; /* Espacement interne */
+    font-size: 1rem; /* Taille de texte */
+  }
+  
+  /* Bouton envoyer */
+  #contactForm button {
+    padding: 0.75rem 1.5rem; /* Taille du bouton */
+    font-size: 1.25rem; /* Taille du texte */
+    border-radius: 0.25rem; /* Coins arrondis */
+  }
+  
+  /* Styles responsives */
+  @media (max-width: 768px) {
+    #contact .card-img {
+      height: 200px; /* Réduction de la hauteur sur les petits écrans */
+    }
+  }
+  

@@ -1,0 +1,125 @@
+/* Palette de couleurs utilisée :
+   - Violet pâle : #D1B6E1 (accents subtils, textes secondaires)
+   - Turquoise foncé : #519D9E (titres, liens actifs)
+   - Vert turquoise clair : #58C9B9 (boutons, accents)
+   - Bleu-gris clair : #9DC8C8 (fond général)
+*/
+
+/* Styles globaux */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #9DC8C8; /* Bleu-gris clair pour le fond général */
+    margin: 0;
+    padding: 0;
+    color: #212529; /* Texte principal en noir/gris foncé */
+}
+
+/* Header */
+header {
+    background-color: #519D9E; /* Turquoise foncé */
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+header .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-item {
+    margin-left: 15px;
+}
+
+header .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header .nav-link:hover {
+    background-color: #58C9B9; /* Vert turquoise clair au survol */
+    color: white;
+}
+
+header .nav-link.active {
+    background-color: #D1B6E1; /* Violet pâle pour le lien actif */
+    color: #519D9E; /* Turquoise foncé */
+    font-weight: bold;
+}
+
+/* Section Projets */
+.card {
+    background-color: white; /* Fond blanc pour les cartes */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Effet d'ombre léger */
+    margin: 20px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #519D9E; /* Turquoise foncé pour les titres */
+    margin-bottom: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.card a.btn {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #58C9B9; /* Vert turquoise clair pour les boutons */
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.card a.btn:hover {
+    background-color: #519D9E; /* Turquoise foncé au survol */
+}
+
+/* Footer */
+footer {
+    background-color: #519D9E; /* Turquoise foncé */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Images */
+.card img {
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #D1B6E1; /* Violet pâle pour le fond des sections */
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}

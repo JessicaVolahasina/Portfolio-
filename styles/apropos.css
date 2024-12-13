@@ -1,0 +1,111 @@
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #58C9B9; /* Fond général de la page */
+    color: #333; /* Couleur de texte principale */
+  }
+  
+  /* Conteneur principal */
+  #page {
+    padding: 20px;
+  }
+  
+  /* Section "À propos de moi" */
+  #home {
+    background-color: #ffffff; /* Fond blanc pour contraste */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    border: 5px solid #519D9E; /* Bordure pour accentuer la section */
+  }
+  
+  /* Titre principal */
+  #home h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #519D9E; /* Couleur principale pour les titres */
+    margin-bottom: 20px;
+  }
+  
+  /* Texte des paragraphes */
+  #home p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    text-align: justify; /* Alignement justifié */
+  }
+  
+  /* Style pour les mots en gras */
+  #home b {
+    color: #58C9B9; /* Met en évidence les mots-clés */
+  }
+  
+  /* Image de profil */
+  #home img {
+    border: 3px solid #9DC8C8; /* Bordure colorée autour de l'image */
+    padding: 5px;
+    background-color: #ffffff; /* Fond blanc pour contraste */
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  }
+  
+  /* Espacement entre les éléments */
+  #home br {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #519D9E; /* Couleur sombre pour le footer */
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Liens */
+  a {
+    text-decoration: none;
+    color: #58C9B9;
+  }
+  
+  a:hover {
+    color: #9DC8C8; /* Couleur plus douce au survol */
+    text-decoration: underline;
+  }
+  
+  /* Boutons Bootstrap */
+  button, .btn {
+    border-radius: 50px; /* Boutons arrondis */
+    background-color: #519D9E; /* Couleur des boutons */
+    color: #fff; /* Texte blanc */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #58C9B9; /* Couleur au survol */
+  }
+  
+  /* Responsive pour les petits écrans */
+  @media (max-width: 768px) {
+    #home {
+      padding: 20px;
+    }
+  
+    #home h2 {
+      font-size: 1.5rem;
+    }
+  
+    #home p {
+      font-size: 1rem;
+    }
+  }
+  
