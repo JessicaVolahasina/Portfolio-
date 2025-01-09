@@ -170,12 +170,7 @@ body {
   color: #333;
   font-size: 1rem;
 }
-.card-img-top {
-  transition: transform 0.3s ease-in-out;
-}
-.card-img-top:hover, .card-img-top:active {
-  transform: scale(1.1);
-}
+
 
 /* Section contact */
 #contact {
